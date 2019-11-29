@@ -157,8 +157,8 @@ div.marquee p:after{background:url(../img/bong_doitac.png) no-repeat center cent
 div.wap_pro{margin:15px auto;clear:both;}
 .zoom_slick{width:35%;float:left;}
 .zoom_slick .slick2{border:1px solid #DDD;}
-.zoom_slick .slick{margin-top:5px; height: 330px}
-.zoom_slick .slick img{width:90%;margin:auto;border:1px solid #DDD;box-sizing:border-box;padding:5px;}
+.zoom_slick .slick{margin-top:5px;}
+.zoom_slick .slick img{width:90%;margin:auto;border:1px solid #DDD;box-sizing:border-box;padding:5px;object-fit: cover;height: 120px;}
 .zoom_slick .slick img:hover{border:1px solid #F60;opacity:0.5;transition:1s;}
 .product_info{float:right;list-style:none;width:62%;}
 .product_info li{font-size:16px;border-bottom:1px solid #EEE;padding:4px 0;}

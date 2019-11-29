@@ -912,11 +912,16 @@ figure.mz-figure {
 
  /* Thumbnails on the page */
 .mz-thumb, .mz-thumb:focus {
+    object-fit: cover;
+    height: 370px;
     display: inline-block;
     line-height: 0;
     outline: none;
 }
 .mz-thumb img {
+    object-fit: cover;
+    width:370px;
+    height: 370px;
     border: 0;
     box-shadow: 0 0 1px 0px rgba(0,0,0,0.3);
     box-sizing: border-box;

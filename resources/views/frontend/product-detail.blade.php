@@ -113,7 +113,7 @@
                 <div class="bx_sp">
                     <a href="{{route('getProduct', ['product' => $item->slug])}}">
                         <img class="lazy" data-src="{{asset('public/img/post/' . $item->cover)}}" alt="{{$item->title}}"
-                            style="object-fit: cover;width: 180px;height: 176px;" />
+                            style="object-fit: cover;width:270px;height: 270px;" />
                     </a>
                     <div class="info_sp text-center">
                         <h3><a href="{{route('getProduct', ['product' => $item->slug])}}">{{$item->title}}</a></h3>
