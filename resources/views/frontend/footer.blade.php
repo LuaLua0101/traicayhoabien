@@ -3,12 +3,12 @@
         <div class="wapper">
             <div class="row">
                 <div class="col-md-5 col-sm-12 col-xs-12 col-man">
-                    <p class="tencongty" style="color:#bb0606">Trái cây Hoa Biển</p>
+                    <p class="tencongty">Trái cây Hoa Biển</p>
                     <div>
                         <p font-size:="" style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "
                             trebuchet=""><span style="font-size:14px;"><span style="color:#FFFFFF;"><span
-                                        style="font-family: Helvetica, Arial, sans-serif;">Địa chỉ : 15A đường số 15,
-                                        P. Tân Kiểng, Quận 7, TP.</span></span>
+                                        style="font-family: Helvetica, Arial, sans-serif;">Địa chỉ : Lầu 1, Phòng 11,
+                                        Tòa B, Khu River Gate, 155 Bến Vân Đồn, Phường 6, Quận 4, TP.</span></span>
                             </span><span
                                 style="color: rgb(255, 255, 255); font-family: Helvetica, Arial, sans-serif; font-size: 14px;">HCM</span>
                         </p>
@@ -16,8 +16,8 @@
                         <p font-size:="" style="" trebuchet=""><span style="font-size:14px;"><span
                                     style="font-family: Helvetica, Arial, sans-serif;">
                                     <font color="#ffffff">Điện thoại : </font><span style="color:#FFFFFF;"><a
-                                            style="color:#bb0606" href="tel:0941243377">094.124.3377</a>  -  <a
-                                            style="color:#bb0606" href="tel:0912779188">0912.779.188</a></span>
+                                            href="tel:0941243377">094.124.3377</a>  -  <a
+                                            href="tel:0912779188">0912.779.188</a></span>
                                 </span>
                             </span>
                         </p>
@@ -30,13 +30,13 @@
                         </p>
 
                         <p font-size:="" style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "
-                            trebuchet=""><span style="font-size:14px;"><span style="color:#FFFFFF;">Công ty Trái
-                                    cây Hoa Biển</span></span>
+                            trebuchet=""><span style="font-size:14px;"><span style="color:#FFFFFF;">Công ty cổ phần xuất
+                                    nhập khẩu Hoa Biển</span></span>
                         </p>
 
                         <p font-size:="" style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "
                             trebuchet=""><span style="font-size:14px;"><span style="color:#FFFFFF;">MST :
-                                    123</span></span>
+                                    0315566825</span></span>
                         </p>
                     </div>
                     <!-- <div id="lienket">
@@ -114,10 +114,10 @@
             <a href="https://m.me/Traicaynhapkhauhoabien" target="_blank">
                 <img src="{{asset('public/img/120-9913.png')}}" alt="Trái cây Hoa Biển">
             </a>
-            <a href="https://zalo.me/1693153823437032821">
+            <a href="https://www.facebook.com/Traicaynhapkhauhoabien/">
                 <img src="{{asset('public/img/zalo-icon.png')}}" style="width:50px" alt="https://zalo.me/0834701155" />
             </a>
-            <a href="https://zalo.me/1693153823437032821">
+            <a href="https://www.facebook.com/Traicaynhapkhauhoabien/">
                 <img src="{{asset('public/img/viber.png')}}" style="width:50px" alt="https://zalo.me/0834701155" />
             </a>
             <!-- <a href="lien-he.html" target="_blank">
@@ -126,7 +126,6 @@
         </div>
     </div>
 </div>
-
 <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
 <script>
@@ -148,6 +147,5 @@ window.fbAsyncInit = function() {
 </script>
 
 <!-- Your customer chat code -->
-<div class="fb-customerchat" attribution=setup_tool page_id="571131936685251">
+<div class="fb-customerchat" attribution=setup_tool page_id="110571162945415" theme_color="#68bd45">
 </div>
-<!---END #footer-->

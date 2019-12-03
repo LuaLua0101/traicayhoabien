@@ -22,11 +22,11 @@
                         <img src="{{asset('public/img/120-9913.png')}}" style="width:50px"
                             alt="https://m.me/Traicaynhapkhauhoabien" />
                     </a>
-                    <a href="https://zalo.me/1693153823437032821">
+                    <a href="https://www.facebook.com/Traicaynhapkhauhoabien/">
                         <img src="{{asset('public/img/zalo-icon.png')}}" style="width:50px"
                             alt="https://zalo.me/0834701155" />
                     </a>
-                    <a href="https://zalo.me/1693153823437032821">
+                    <a href="https://www.facebook.com/Traicaynhapkhauhoabien/">
                         <img src="{{asset('public/img/viber.png')}}" style="width:50px"
                             alt="https://zalo.me/0834701155" />
                     </a>

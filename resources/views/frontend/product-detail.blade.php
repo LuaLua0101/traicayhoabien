@@ -54,7 +54,7 @@
                         <b>Tình trạng:</b> <b>{{$product->status===0?"Hết hàng":"Còn hàng"}}</b>
                     </li>
 
-                    <li>
+                    <!-- <li>
                         <div class="product-qty">
                             <div class="show">
                                 <label>Đặt hàng:</label>
@@ -79,7 +79,7 @@
                                 </div>
                             </div>
                         </div>
-                    </li>
+                    </li> -->
                     <li>
                         {!!$product->description!!}
                     </li>

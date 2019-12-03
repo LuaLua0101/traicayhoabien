@@ -66,8 +66,8 @@
                                     helvetica="" />
                                 <br font-size:="" helvetica="" />
                                 4. Giao hàng tận nơi và nhanh chóng: Với đội ngũ shipper chuyên nghiệp không ngại mưa
-                                nắng , chỉ 1 cuộc điện thoại <strong><span
-                                        style="font-size:22px;">0834701155</span></strong>, quý khách sẽ có ngay trái
+                                nắng , chỉ 1 cuộc điện thoại <strong><span style="font-size:22px;">094.124.337 –
+                                        0912.779.188</span></strong>, quý khách sẽ có ngay trái
                                 cây tươi ngon được giao tận tay trong vòng 1h - 2h .<br font-size:="" helvetica="" />
                                 <br font-size:="" helvetica="" />
                                 5. Dịch vụ Fruit Gift : Trái cây Hoa Biển nhận làm <a
@@ -131,7 +131,7 @@
                             <span
                                 style="color: rgb(29, 33, 41); font-family: Helvetica, Arial, sans-serif; font-size: 14px;"><u><strong>Cửa
                                         hàng 2:</strong></u>:
-                                CĂN C1/7. CHUNG CƯ HAGL 2, 783 Trần Xuân Soạn, Phường Tân Hưng, Quận 7, Hồ Chí
+                                CĂN A1-3, CHUNG CƯ HAGL 2, 783 Trần Xuân Soạn, Phường Tân Hưng, Quận 7, Hồ Chí
                                 Minh</span></p>
                         <p font-size:="" style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "
                             trebuchet=""><span helvetica=""
@@ -161,8 +161,8 @@
                                         style="box-sizing: border-box;">Số điện thoại: </u></span></span><span
                                 style="box-sizing: border-box; font-size: 14px; text-align: justify; color: rgb(111, 111, 111); font-family: arial;">
                                 : </span><a href="https://traicayhoabien.com/"><span style="color:#000000;"><span
-                                        style="box-sizing: border-box; font-size: 14px; text-align: justify; font-family: arial;">090
-                                        932 81 62</span></span></a><span
+                                        style="box-sizing: border-box; font-size: 14px; text-align: justify; font-family: arial;">094.124.3377
+                                        - 0912.779.188</span></span></a><span
                                 style="box-sizing: border-box; font-size: 14px; text-align: justify;">
                                 <font face="Helvetica, Arial, sans-serif">
                                     <font color="#1d2129"> </font>
