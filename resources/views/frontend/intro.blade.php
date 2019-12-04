@@ -42,8 +42,9 @@
 
                     <h3 font-size:="" helvetica="" style="font-family: time; font-size: 34px;" text-align:=""> </h3>
 
-                    <p style="text-align:center"><img alt="" src="https://cdn-img-v2.webbnc.net/media/3632/112344.jpg"
-                            style="box-sizing: border-box; border: 0px; vertical-align: middle; height: 350px; width: 350px;" />
+                    <p style="text-align:center">
+                        <img class="lazy" data-src="{{asset('public/img/logo-hoabien.png')}}"
+                            alt="Vì sao chọn chúng tôi" />
                     </p>
 
                     <h3 font-size:="" helvetica="" style="font-family: time; font-size: 34px;" text-align:=""><br />
@@ -82,16 +83,11 @@
                             style="font-family:arial,helvetica,sans-serif;"><span style="font-size:18px;">
                             </span></span></h3>
 
-                    <p style="text-align:center"><img alt="" src="https://cdn-img-v2.webbnc.net/media/3632/images.png"
-                            style="box-sizing: border-box; border: 0px; vertical-align: middle; height: 120px; width: 277px;" />
-                    </p>
-
                     <div style="">
                         <h3 style="font-family: time; font-size: 34px;"> </h3>
 
-                        <p style="text-align:center"><img alt=""
-                                src="https://cdn-img-v2.webbnc.net/media/3632/Untitled-13.jpg"
-                                style="box-sizing: border-box; border: 0px; vertical-align: middle; height: 500px; margin-left: 200px; margin-right: 200px; width: 500px;" />
+                        <p style="text-align:center"> <img class="lazy"
+                                data-src="{{asset('public/img/logo-hoabien.png')}}" alt="Vì sao chọn chúng tôi" />
                         </p>
 
                         <h3 style="font-family: time; font-size: 34px; text-align: center;"><br />
