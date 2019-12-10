@@ -11,6 +11,11 @@
         <div id="delete-page" class="card">
           <div id="delete-header" class="card-header d-flex justify-content-between align-items-center">
             <h2 class="h2 bold"><a href="javascript:void(0)">Danh sách sản phẩm</a></h2>
+            <form action="{{route('adgetListProduct')}}" method="GET" id="create-new" style="width:50%" enctype='multipart/form-data'>
+  Nhập từ khóa
+  <input type="text" name="query" value="" style="width:300px">
+  <input type="submit" value="Tìm kiếm">
+</form> 
           </div>
           <div id="delete-box" class="show delete-box card-body">
             <div class="delete-form">

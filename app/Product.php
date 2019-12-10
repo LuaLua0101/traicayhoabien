@@ -29,6 +29,11 @@ class Product extends Model
   public function getListProduct(){
   	return Product::orderBy('pos', 'asc')->orderBy('created_at','desc')->get();
   }
+  
+  public function getListProductByQuery($query){
+  	return Product::where('title', 'like', '%'.$query.'%')->orderBy('pos', 'asc')->orderBy('created_at','desc')->get();
+  }
+
   public function getListProductByType($type){
     return Product::where('type', '=', $type)->orderBy('pos', 'asc')->orderBy('created_at','desc')->get();
   }

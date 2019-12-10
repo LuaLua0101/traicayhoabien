@@ -38,11 +38,16 @@ class MainController extends Controller
     /**
      * Get product page
      */
-    public function getAllProduct()
+    public function getAllProduct(Request $request)
     {
-
+        $query = $request->query('query');
         $productModel = new Product();
+
+        if($query == null || $query == '')
         $products = $productModel->getListProduct();
+        else 
+        $products = $productModel->getListProductByQuery($query);
+
         $this->data['products'] = $products;
 
         $this->data['title'] = "Sản phẩm";

@@ -35,7 +35,7 @@ Route::middleware(['runall'])->group(function () {
             Route::post('/product-add', 'AdminController@postAddProduct')->name('adpostAddProduct');
             Route::get('/product-edit/{id}', 'AdminController@getEditProduct')->name('adgetEditProduct');
             Route::post('/product-edit/{id}', 'AdminController@postEditProduct')->name('adpostEditProduct');
-            Route::get('/product', 'AdminController@getListProduct')->name('adgetListProduct');
+            Route::get('/product/{query?}', 'AdminController@getListProduct')->name('adgetListProduct');
             Route::get('/product-del/{id}', 'AdminController@getDelProduct')->name('adgetDelProduct');
 
             // Cate
@@ -91,7 +91,7 @@ Route::middleware(['runall'])->group(function () {
         return view('frontend.policy');
     })->name('getPolicy');
 
-    Route::get('/san-pham', 'MainController@getAllProduct')->name('getAllProduct');
+    Route::get('/san-pham/{query?}', 'MainController@getAllProduct')->name('getAllProduct');
     Route::get('/san-pham/{cate}', 'MainController@getCate')->name('getCate');
     Route::get('/san-pham/{product}', 'MainController@getProduct')->name('getProduct');
 

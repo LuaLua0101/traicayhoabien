@@ -56,20 +56,17 @@
                             <li>
                                 <a style="font-weight: bold"
                                     href="{{route('getCate', ['cate' => $cate])}}">{{config('config.cate_name')[$key][0]}}</a>
-
                             </li>
-
                             @endforeach
                         </ul>
                     </li>
                     <li><a href="{{route('getAllNews')}}" style="font-weight: bold">Bạn có biết?</a>
-                        <ul>
-                        </ul>
                     </li>
 
                     <li><a href="{{route('getAllStore')}}" style="font-weight: bold">Hệ thống phân phối</a></li>
 
                     <li><a href="{{route('getContact')}}" style="font-weight: bold">Liên hệ</a></li>
+
                 </ul>
             </div>
             <div class="show_giohang">
@@ -79,19 +76,19 @@
                     <span>Giỏ hàng</span>
                 </a> -->
             </div>
-            <!-- <div class="g1-drop">
+            <div class="g1-drop">
                 <a class="g1-drop-toggle" href="javascript:void"> <i class="fa fa-search"></i>Tìm kiếm <span
                         class="g1-drop-toggle-arrow"></span> </a>
                 <div class="v_Search">
                     <div class="w_timk">
-                        <input type="text" name="keyword" id="keyword" onkeypress="doEnter(event,'keyword');"
-                            value="Nhập từ khóa tìm kiếm..."
-                            onclick="if(this.value=='Nhập từ khóa tìm kiếm...'){this.value=''}"
-                            onblur="if(this.value==''){this.value='Nhập từ khóa tìm kiếm...'}">
-                        <i class="fa fa-search" aria-hidden="true" onclick="onSearch(event,'keyword');"></i>
+                    <form action="{{route('getAllProduct')}}" method="GET" id="create-new" enctype='multipart/form-data' >
+                        <input type="text" name="query" id="query" onkeypress="doEnter(event,'query');"
+                            placeholder="Nhập từ khóa tìm kiếm...">
+                      <input type="submit" value="Tìm kiếm"/>
+                        </form>
                     </div>
                 </div>
-            </div> -->
+            </div>
         </div>
     </div>
 </div>
@@ -114,12 +111,13 @@
 
     <nav id="menu_mobi" style="height:0; overflow:hidden;">
         <ul>
-            <!-- <div id="search_mobi">
-                <input type="text" name="keyword2" id="keyword2" onKeyPress="doEnter2(event,'keyword2');"
-                    value="Nhập từ khóa tìm kiếm..." onclick="if(this.value=='Nhập từ khóa tìm kiếm...'){this.value=''}"
-                    onblur="if(this.value==''){this.value='Nhập từ khóa tìm kiếm...'}">
-                <i class="fa fa-search" aria-hidden="true" onclick="onSearch2(event,'keyword2');"></i>
-            </div> -->
+            <div id="search_mobi">
+            <form action="{{route('getAllProduct')}}" method="GET" id="create-new" enctype='multipart/form-data' >
+                        <input type="text" name="query" id="query" onkeypress="doEnter(event,'query');"
+                            placeholder="Nhập từ khóa tìm kiếm...">
+                      <input type="submit" value="Tìm kiếm"/>
+                        </form>
+            </div>
 
             <li><a class="home active" href="{{route('getHome')}}"><i class="fa fa-home" aria-hidden="true"></i><b>Trang
                         chủ</b></a>

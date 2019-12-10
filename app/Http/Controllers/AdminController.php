@@ -440,11 +440,15 @@ class AdminController extends Controller
     /**
      * Get list product page
      */
-    public function getListProduct()
+    public function getListProduct(Request $request)
     {
+        $query = $request->query('query');
 
         $productModel = new Product();
+        if($query == null || $query == '')
         $products = $productModel->getListProduct();
+        else 
+        $products = $productModel->getListProductByQuery($query);
         $this->data['products'] = $products;
 
         return view('admin.product_list', $this->data);
