@@ -81,7 +81,7 @@
                         class="g1-drop-toggle-arrow"></span> </a>
                 <div class="v_Search">
                     <div class="w_timk">
-                    <form action="{{route('getAllProduct')}}" method="GET" id="create-new" enctype='multipart/form-data' >
+                    <form action="{{route('getSearchProduct')}}" method="GET" id="create-new" enctype='multipart/form-data' >
                         <input type="text" name="query" id="query" onkeypress="doEnter(event,'query');"
                             placeholder="Nhập từ khóa tìm kiếm...">
                       <input type="submit" value="Tìm kiếm"/>
@@ -112,7 +112,7 @@
     <nav id="menu_mobi" style="height:0; overflow:hidden;">
         <ul>
             <div id="search_mobi">
-            <form action="{{route('getAllProduct')}}" method="GET" id="create-new" enctype='multipart/form-data' >
+            <form action="{{route('getSearchProduct')}}" method="GET" id="create-new" enctype='multipart/form-data' >
                         <input type="text" name="query" id="query" onkeypress="doEnter(event,'query');"
                             placeholder="Nhập từ khóa tìm kiếm...">
                       <input type="submit" value="Tìm kiếm"/>

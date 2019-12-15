@@ -91,7 +91,8 @@ Route::middleware(['runall'])->group(function () {
         return view('frontend.policy');
     })->name('getPolicy');
 
-    Route::get('/san-pham/{query?}', 'MainController@getAllProduct')->name('getAllProduct');
+    Route::get('/san-pham', 'MainController@getAllProduct')->name('getAllProduct');
+    Route::get('/san-pham/tim-kiem/{query?}', 'MainController@getAllProduct')->name('getSearchProduct');
     Route::get('/san-pham/{cate}', 'MainController@getCate')->name('getCate');
     Route::get('/san-pham/{product}', 'MainController@getProduct')->name('getProduct');
 
