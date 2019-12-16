@@ -123,12 +123,29 @@
               <div class="line"></div>
 
 
-              <div class="form-group row">
+              <!-- <div class="form-group row">
                   <label class="col-sm-2 form-control-label">Mô tả:</label>
                   <div class="col-sm-10">
                     <textarea id="form-description-txt" class="text-content form-control" name="description" ></textarea>
                   </div>
+                </div> -->
+                <div class="content-post">
+                
+                <div class="form-group row">
+                  <label class="col-sm-2 form-control-label">Mô tả:</label>
+                  <div class="col-sm-10">
+                    <textarea id="form-description-txt" class="text-content form-control" name="description"></textarea>
+                  </div>
+                  <script>
+                    
+                    CKEDITOR.replace( 'form-description-txt', {
+                      language: 'en',
+                      filebrowserUploadUrl: '{!! route('uploadImage', ['_token' => csrf_token() ]) !!}',
+                      filebrowserUploadMethod: 'form'
+                    } );
+                </script>
                 </div>
+              </div>
                 <div class="line"></div>
 
               <div class="content-post">
