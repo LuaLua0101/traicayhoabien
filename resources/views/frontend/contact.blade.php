@@ -21,8 +21,7 @@
                             </u></span>
                         <font color="#6f6f6f" face="arial" style="text-align: justify;"><span style="font-size: 14px;">
                             </span></font><span style="color:#000000;"><span
-                                style="text-align: justify; font-family: Helvetica, Arial, sans-serif; font-size: 14px;">15
-                                Đường số 15, phường Tân Kiểng, Quận 7, TP.HCM</span></span>
+                                style="text-align: justify; font-family: Helvetica, Arial, sans-serif; font-size: 14px;">Số 15a đường số 15, phường Tân Kiểng, quận 7, Tp. HCM</span></span>
                     </p>
 
                     <p><span style="color: rgb(0, 128, 0);"><u><span

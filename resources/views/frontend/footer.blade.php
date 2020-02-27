@@ -7,11 +7,7 @@
                     <div>
                         <p font-size:="" style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "
                             trebuchet=""><span style="font-size:14px;"><span style="color:#FFFFFF;"><span
-                                        style="font-family: Helvetica, Arial, sans-serif;">Địa chỉ : Lầu 1, Phòng 11,
-                                        Tòa B, Khu River Gate, 155 Bến Vân Đồn, Phường 6, Quận 4, TP.</span></span>
-                            </span><span
-                                style="color: rgb(255, 255, 255); font-family: Helvetica, Arial, sans-serif; font-size: 14px;">HCM</span>
-                        </p>
+                                        style="font-family: Helvetica, Arial, sans-serif;">Địa chỉ : Số 15a đường số 15, phường Tân Kiểng, quận 7, Tp. HCM</p>
 
                         <p font-size:="" style="" trebuchet=""><span style="font-size:14px;"><span
                                     style="font-family: Helvetica, Arial, sans-serif;">
@@ -30,8 +26,7 @@
                         </p>
 
                         <p font-size:="" style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "
-                            trebuchet=""><span style="font-size:14px;"><span style="color:#FFFFFF;">Công ty cổ phần xuất
-                                    nhập khẩu Hoa Biển</span></span>
+                            trebuchet=""><span style="font-size:14px;"><span style="color:#FFFFFF;">Công ty Cổ Phần Xuất Nhập Khẩu Hoa Biển</span></span>
                         </p>
 
                         <p font-size:="" style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, "
