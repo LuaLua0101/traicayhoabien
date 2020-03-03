@@ -10,7 +10,7 @@
                 <ul>
                     <li>
                         <a href="#">
-                            <img src="{{asset('public/thumb/1366x490x1x100/upload/hinhanh/8-3.jpg')}}" alt="https://traicayhoabien.com/" title="" />
+                            <img src="{{asset('public/thumb/1366x490x1x100/upload/hinhanh/8-3.jpg')}}" alt="https://traicayhoabien.com/" title="" style="height:100%;" />
                         </a>
                     </li>
                     <li>
@@ -50,20 +50,20 @@
                     </li>
                 </ul>
             </div>
-            <div class="ws_bullets">
+            {{-- <div class="ws_bullets">
                 <div>
                     <a href="#" title="hinhc"><span><img src="{{asset('public/thumb/85x48x1x90/upload/hinhanh/cara-muslim_konsumsi-buah-yang-tepat-1549.jpg')}}" alt="https://traicayhoabien.com/" />6</span></a>
-                    <a href="#" title="hinhc"><span><img src="{{asset('public/thumb/85x48x1x90/upload/hinhanh/fruit-tong-hop-1-5827.jpg')}}" alt="https://traicayhoabien.com/" />6</span></a>
-                    <a href="#" title="hinhc"><span><img src="{{asset('public/thumb/85x48x1x90/upload/hinhanh/tao-3684.jpg')}}" alt="https://traicayhoabien.com/" />6</span></a>
-                    <a href="#" title="hinhc"><span><img src="{{asset('public/thumb/85x48x1x90/upload/hinhanh/frutta-7815.jpg')}}" alt="https://traicayhoabien.com/" />6</span></a>
-                    <a href="#" title="hinhc"><span><img src="{{asset('public/thumb/85x48x1x90/upload/hinhanh/untitled-1-copy-2838.jpg')}}" alt="https://traicayhoabien.com/" />6</span></a>
-                    <a href="#" title="hinhc"><span><img src="{{asset('public/thumb/85x48x1x90/upload/hinhanh/untitled-1-5597.jpg')}}" alt="https://traicayhoabien.com/" />6</span></a>
-                    <a href="#" title="hinhc"><span><img src="{{asset('public/thumb/85x48x1x90/upload/hinhanh/sl-3724.png')}}" alt="https://traicayhoabien.com/" />6</span></a>
-                </div>
-            </div>
-            <div class="ws_shadow"></div>
+            <a href="#" title="hinhc"><span><img src="{{asset('public/thumb/85x48x1x90/upload/hinhanh/fruit-tong-hop-1-5827.jpg')}}" alt="https://traicayhoabien.com/" />6</span></a>
+            <a href="#" title="hinhc"><span><img src="{{asset('public/thumb/85x48x1x90/upload/hinhanh/tao-3684.jpg')}}" alt="https://traicayhoabien.com/" />6</span></a>
+            <a href="#" title="hinhc"><span><img src="{{asset('public/thumb/85x48x1x90/upload/hinhanh/frutta-7815.jpg')}}" alt="https://traicayhoabien.com/" />6</span></a>
+            <a href="#" title="hinhc"><span><img src="{{asset('public/thumb/85x48x1x90/upload/hinhanh/untitled-1-copy-2838.jpg')}}" alt="https://traicayhoabien.com/" />6</span></a>
+            <a href="#" title="hinhc"><span><img src="{{asset('public/thumb/85x48x1x90/upload/hinhanh/untitled-1-5597.jpg')}}" alt="https://traicayhoabien.com/" />6</span></a>
+            <a href="#" title="hinhc"><span><img src="{{asset('public/thumb/85x48x1x90/upload/hinhanh/sl-3724.png')}}" alt="https://traicayhoabien.com/" />6</span></a>
         </div>
-    </div>
+    </div> --}}
+    <div class="ws_shadow"></div>
+</div>
+</div>
 </div>
 <!---END #slider-->
 <div id="main_content">
